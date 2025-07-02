@@ -1,4 +1,4 @@
-# 🚀 Nexus Network III Deployment Script
+# 🚀 Nexus Testnet III Deployment Script
 
 Shell script otomatis untuk setup dan menjalankan beberapa instance **Nexus Network Node** menggunakan `screen`. Skrip ini akan:
 
@@ -21,6 +21,19 @@ nexus.sh    # Script deploy node nexus-network
 ---
 
 ## ⚙️ Prasyarat
+
+### 🖥️ Minimum Spesifikasi Server
+
+- CPU: 2 vCPU
+- RAM: 4 GB
+- Penyimpanan: 20 GB (disarankan SSD)
+- Koneksi Internet stabil
+
+### 🐧 Distro yang Direkomendasikan
+
+- Ubuntu 22.04 LTS atau Ubuntu 24.04 LTS
+
+
 
 Pastikan server kamu menjalankan OS **Ubuntu/Debian-based** dan sudah memiliki akses `sudo`.
 
@@ -87,4 +100,3 @@ screen -S nexus-node-123456 -X quit
 - Script ini akan **mengambil tag terbaru** dari repo [nexus-cli](https://github.com/nexus-xyz/nexus-cli).
 - Backup otomatis binary lama ke `/usr/local/bin/nexus-network.bak`.
 - Script bisa dijalankan berulang untuk node baru tanpa konflik.
-
