@@ -44,8 +44,8 @@ Pastikan server kamu menjalankan OS **Ubuntu/Debian-based** dan sudah memiliki a
 1. **Clone Repository**:
 
 ```bash
-git clone https://github.com/mhdverel/Nexus-Network-III.git
-cd Nexus-Network-III
+git clone https://github.com/mhdverel/Nexus-Network.git
+cd Nexus-Network
 ```
 
 2. **Beri permission eksekusi & jalankan**:
